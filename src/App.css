@@ -37,8 +37,11 @@
   }
 }
 
-* {
-  background-color: #191970;
+body {
+  background-image: url('Images/stars-1845852_1920.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nasa-photo-wrapper {
@@ -47,7 +50,7 @@
   align-items: center;
 }
 
-img {
+.nasa-photo-wrapper img {
   max-width: 70%;
   object-fit: cover;
   padding-bottom: 2%;
@@ -67,4 +70,10 @@ h2 {
 
 p {
   color: #FD7702;
+  font-size: 1.25rem;
+}
+
+.photo-explanation {
+  font-weight: bold;
+  background-color: rgb(25, 25, 112, 0.6);
 }

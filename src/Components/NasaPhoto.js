@@ -18,7 +18,7 @@ const NasaPhoto = (props) => {
             <h2>{props.photo.title}</h2>
             <p>{props.photo.date}</p>
             <img src={props.photo.hdurl} alt='The current space photo NASA has chosen for today'/>
-            <p>{props.photo.explanation}</p>
+            <p className='photo-explanation'>{props.photo.explanation}</p>
         </StyledNasaPhoto>
     )
 }
